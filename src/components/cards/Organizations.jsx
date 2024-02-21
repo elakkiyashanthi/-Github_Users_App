@@ -42,7 +42,7 @@ function OrgCard({ data }) {
         {data.length > 0 && (
           <Grid container>
             {data.map((element) => (
-              <Grid  md={1}  key={element.id} > 
+              <Grid item md={1}  key={element.id} > 
                 <Avatar
                   component={Link}
                   alt={element.login}
